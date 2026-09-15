@@ -1,0 +1,11 @@
+name: Automatizacion de pruebas funcionales
+on: push
+jobs:
+  ejecutar-pruebas-automatizadas:
+    runs-on: ubuntu-latest
+    steps:
+      - name: obtener codigo del repo
+        uses: actions/checkout@v4
+
+
+
